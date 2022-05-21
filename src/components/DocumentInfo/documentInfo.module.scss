@@ -1,0 +1,26 @@
+.DocumentInfoWrapper {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  background-color: var(--white);
+  width: 312px;
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--heading-text);
+    letter-spacing: 0.15px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+
+    svg {
+      color: var(--icon-color);
+      height: 24px;
+      width: 24px;
+      cursor: pointer;
+    }
+  }
+}

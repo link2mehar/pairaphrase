@@ -1,0 +1,46 @@
+.chatBoxWrapper {
+  &.blue {
+    justify-content: flex-start;
+    .msgWrap {
+      background-color: #0872ba;
+    }
+  }
+  display: flex;
+  justify-content: flex-end;
+  .msgWrap {
+    background-color: #ffab00;
+    color: var(--white);
+    border-radius: 8px;
+    padding: 9px 10px;
+    margin-top: 12px;
+    width: 240px;
+
+    .nameDate {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      h4 {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 120px;
+        word-break: break-word;
+      }
+      span {
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        white-space: nowrap;
+      }
+    }
+    .message {
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        color: var(--white);
+        margin-top: 6px;
+        word-break: break-word;
+      }
+    }
+  }
+}

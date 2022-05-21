@@ -1,0 +1,72 @@
+.dropContainer {
+  background: #fafafa;
+  border: 1px dashed #1976d2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: var(--card-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 42px;
+  margin-top: 16px;
+  .dropFilesWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 24px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: var(--muted-text);
+    }
+    span {
+      font-size: 12px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: var(--muted-text);
+      margin-top: 12px;
+    }
+    .documentType {
+      margin-top: 12px;
+      img {
+        margin-right: 16px;
+      }
+    }
+    button {
+      margin-top: 35px;
+    }
+  }
+  .loginWith {
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px !important;
+    line-height: 24px !important;
+    position: relative;
+    width: 120px;
+    margin-top: 18px;
+  }
+
+  .loginWith:before,
+  .loginWith:after {
+    background-color: rgba(0, 0, 0, 0.12);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    vertical-align: middle;
+    width: 34%;
+    top: 12px;
+  }
+
+  .loginWith:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+
+  .loginWith:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+}

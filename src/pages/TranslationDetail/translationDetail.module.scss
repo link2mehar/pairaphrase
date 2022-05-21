@@ -1,0 +1,20 @@
+.TranslationDetailWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .iconsWrap {
+    display: flex;
+    align-items: center;
+    .icons {
+      display: flex;
+      align-items: center;
+      span {
+        color: var(--icon-color);
+        &:not(:first-child) {
+          margin-left: 12px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

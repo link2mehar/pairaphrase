@@ -1,0 +1,23 @@
+.ActiveDocumentsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  .searchWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  .customGrid {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    flex: 1;
+    padding: 0 0 9px 0;
+  }
+  .customGrid2 {
+    padding-top: 0 !important;
+  }
+}

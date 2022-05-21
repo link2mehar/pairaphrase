@@ -1,0 +1,8 @@
+@import "../Mixins";
+
+.footer {
+  &__title {
+  }
+}
+
+@import "./responsive/Footer";

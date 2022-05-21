@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "@images/*": [
+        "src/assets/images/*"
+      ],
+      "@icons/*": [
+        "src/assets/images/icons/*"
+      ],
+      "@videos/*": [
+        "src/assets/videos/*"
+      ],
+      "@fonts/*": [
+        "src/assets/fonts/*"
+      ],
+      "@utils": [
+        "src/common/utils.js"
+      ],
+      "@config": [
+        "src/common/config.js"
+      ],
+      "@schemas": [
+        "src/common/schemas/index.js"
+      ],
+      "@services": [
+        "src/common/services/index.js"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@containers/*": [
+        "src/containers/*"
+      ],
+      "@context": [
+        "src/context/AppContext.jsx"
+      ],
+      "@hooks": [
+        "src/hooks/index.js"
+      ],
+      "@hoc/*": [
+        "src/hoc/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@stylesComponents/*": [
+        "src/styles/components/*"
+      ],
+      "@stylesPages/*": [
+        "src/styles/pages/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

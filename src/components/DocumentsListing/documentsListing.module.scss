@@ -1,0 +1,23 @@
+.completed {
+  background: #e8f5e9;
+  border-radius: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  padding: 2px 12px;
+  width: fit-content;
+  color: #00c853;
+  white-space: nowrap;
+}
+
+.inProgress {
+  background: #fff8e1;
+  border-radius: 20px;
+  color: #ffab00;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  padding: 2px 12px;
+  width: fit-content;
+  white-space: nowrap;
+}

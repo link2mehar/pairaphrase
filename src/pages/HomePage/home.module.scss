@@ -1,0 +1,89 @@
+.homeWrapper {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  background-color: var(--white);
+  h1 {
+    padding: 24px 0 10px 20px;
+  }
+  .microsoftLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      display: flex;
+    }
+    span {
+      display: flex;
+      align-items: center;
+      margin-left: 12px;
+      cursor: pointer;
+    }
+  }
+  .remaining {
+    color: var(--gray-text);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 16px;
+  }
+  .words {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--white);
+    background-color: var(--orange-text);
+    border: 1px solid #ffab00;
+    border-radius: 70px;
+    padding: 10px 16px;
+    width: fit-content;
+    margin-top: 6px;
+  }
+  .textAreaWrap {
+    .textArea {
+      border: 1px solid rgba(0, 0, 0, 0.04);
+      width: 100%;
+      padding: 8px;
+      height: 385px !important;
+      resize: none;
+      border-radius: 8px;
+      background-color: var(--card-bg);
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.4px;
+      font-family: "Roboto, sans-serif";
+    }
+  }
+  .customTab {
+    // color: var(--primary-color);
+    padding-left: 31px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .upload {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--heading-text);
+    margin-top: 16px;
+  }
+  .inputWrapper {
+    display: flex;
+    align-items: center;
+    .input {
+      flex: 1;
+    }
+    .arrow {
+      padding: 0 12px;
+    }
+    .input2 {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      > div {
+        flex: 1;
+      }
+      button {
+        margin-left: 12px;
+      }
+    }
+  }
+}

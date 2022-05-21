@@ -1,0 +1,28 @@
+.DocumentDetailWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 12px;
+  margin-top: 28px;
+  .detail {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    svg {
+      color: var(--primary-color);
+      margin-left: 4px;
+      min-width: 15px;
+    }
+  }
+}
